@@ -30,6 +30,7 @@ namespace Example_Application
                 Console.WriteLine(i + "###########################");
                 Console.WriteLine("Title: " + item.Title);
                 Console.WriteLine("Author: " + item.Author);
+                Console.WriteLine("Description: " + item.Description);
                 Console.WriteLine("Duration: " + item.Duration);
                 Console.WriteLine("Url: " + item.Url);
                 Console.WriteLine("Thumbnail: " + item.Thumbnail);

@@ -6,3 +6,11 @@ C:\Users\Torsten Klinger\Desktop\1\YoutubeSearch\Example Application\bin\Debug\Y
 C:\Users\Torsten Klinger\Desktop\1\YoutubeSearch\Example Application\obj\Debug\Example Application.csprojResolveAssemblyReference.cache
 C:\Users\Torsten Klinger\Desktop\1\YoutubeSearch\Example Application\obj\Debug\Example Application.exe
 C:\Users\Torsten Klinger\Desktop\1\YoutubeSearch\Example Application\obj\Debug\Example Application.pdb
+C:\Users\Torsten Klinger\iCloudDrive\YoutubeSearch\Example Application\bin\Debug\Example Application.exe.config
+C:\Users\Torsten Klinger\iCloudDrive\YoutubeSearch\Example Application\bin\Debug\Example Application.exe
+C:\Users\Torsten Klinger\iCloudDrive\YoutubeSearch\Example Application\bin\Debug\Example Application.pdb
+C:\Users\Torsten Klinger\iCloudDrive\YoutubeSearch\Example Application\bin\Debug\YoutubeSearch.dll
+C:\Users\Torsten Klinger\iCloudDrive\YoutubeSearch\Example Application\bin\Debug\YoutubeSearch.pdb
+C:\Users\Torsten Klinger\iCloudDrive\YoutubeSearch\Example Application\obj\Debug\Example Application.csprojResolveAssemblyReference.cache
+C:\Users\Torsten Klinger\iCloudDrive\YoutubeSearch\Example Application\obj\Debug\Example Application.exe
+C:\Users\Torsten Klinger\iCloudDrive\YoutubeSearch\Example Application\obj\Debug\Example Application.pdb

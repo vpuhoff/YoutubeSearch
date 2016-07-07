@@ -30,6 +30,7 @@ namespace YoutubeSearch
 
         string title;
         string author;
+        string description;
         string duration;
         string url;
         string thumbnail;
@@ -53,7 +54,7 @@ namespace YoutubeSearch
                 string html = webclient.DownloadString("https://www.youtube.com/results?search_query=" + querystring + "&page=" + i);
 
                 // Search string
-                string pattern = "<div class=\"yt-lockup-content\">.*?title=\"(?<NAME>.*?)\".*?yt-uix-sessionlink";
+                string pattern = "<div class=\"yt-lockup-content\">.*?title=\"(?<NAME>.*?)\".*?</div></div></div></li>";
                 MatchCollection result = Regex.Matches(html, pattern, RegexOptions.Singleline);
 
                 for (int ctr = 0; ctr <= result.Count - 1; ctr++)
@@ -63,6 +64,9 @@ namespace YoutubeSearch
 
                     // Author
                     author = VideoItemHelper.cull(result[ctr].Value, "/user/", "class").Replace('"', ' ').TrimStart().TrimEnd();
+
+                    // Description
+                    description = VideoItemHelper.cull(result[ctr].Value, "dir=\"ltr\" class=\"yt-uix-redirect-link\">", "</div>");
 
                     // Duration
                     duration = VideoItemHelper.cull(VideoItemHelper.cull(result[ctr].Value, "id=\"description-id-", "span"), ": ", "<");
@@ -79,7 +83,7 @@ namespace YoutubeSearch
                         if (duration != "")
                         {
                             // Add item to list
-                            items.Add(new VideoInformation() { Title = title, Url = url, Duration = duration, Thumbnail = thumbnail, Author = author });
+                            items.Add(new VideoInformation() { Title = title, Author = author, Description = description, Duration = duration, Url = url, Thumbnail = thumbnail,  });
                         }
                     }
                 }
