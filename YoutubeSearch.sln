@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YoutubeSearch", "YoutubeSearch\YoutubeSearch.csproj", "{DFECE3E8-99D9-4652-B486-BEA1010329BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example Application", "Example Application\Example Application.csproj", "{013BB843-76A4-43E8-8BD8-393813B9AA7D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DFECE3E8-99D9-4652-B486-BEA1010329BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFECE3E8-99D9-4652-B486-BEA1010329BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFECE3E8-99D9-4652-B486-BEA1010329BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFECE3E8-99D9-4652-B486-BEA1010329BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{013BB843-76A4-43E8-8BD8-393813B9AA7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{013BB843-76A4-43E8-8BD8-393813B9AA7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{013BB843-76A4-43E8-8BD8-393813B9AA7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{013BB843-76A4-43E8-8BD8-393813B9AA7D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
