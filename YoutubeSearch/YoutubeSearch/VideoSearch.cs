@@ -1,5 +1,5 @@
 ﻿// YoutubeSearch
-// It is a library for .NET, written in C#, to show search query results from YouTube.
+// YoutubeSearch is a library for .NET, written in C#, to show search query results from YouTube.
 //
 // (c) 2016 Torsten Klinger - torsten.klinger(at)googlemail.com
 //
