@@ -27,4 +27,13 @@ foreach (var item in items.SearchQuery(querystring, querypages))
 }
 ```
 
+# Supported Items
+
+- Title
+- Author
+- Description
+- Duration
+- Thubmnail
+- Video Url
+
 
