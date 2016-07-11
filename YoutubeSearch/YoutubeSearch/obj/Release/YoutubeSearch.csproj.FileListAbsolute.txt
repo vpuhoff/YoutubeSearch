@@ -8,6 +8,5 @@ C:\Users\Torsten Klinger\iCloudDrive\YoutubeSearch\YoutubeSearch\obj\Release\You
 C:\Users\Torsten Klinger\iCloudDrive\YoutubeSearch\YoutubeSearch\obj\Release\YoutubeSearch.pdb
 C:\Users\Torsten Klinger\YoutubeSearch\YoutubeSearch\YoutubeSearch\bin\Release\YoutubeSearch.dll
 C:\Users\Torsten Klinger\YoutubeSearch\YoutubeSearch\YoutubeSearch\bin\Release\YoutubeSearch.pdb
-C:\Users\Torsten Klinger\YoutubeSearch\YoutubeSearch\YoutubeSearch\obj\Release\YoutubeSearch.csprojResolveAssemblyReference.cache
 C:\Users\Torsten Klinger\YoutubeSearch\YoutubeSearch\YoutubeSearch\obj\Release\YoutubeSearch.dll
 C:\Users\Torsten Klinger\YoutubeSearch\YoutubeSearch\YoutubeSearch\obj\Release\YoutubeSearch.pdb
